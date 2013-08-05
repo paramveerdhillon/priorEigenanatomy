@@ -9,7 +9,7 @@ cd to "data" directory and then run the following command line to run p-Eigen.
 sccan --svd prior[faces.mhd,face_mask.nii.gz,listPrior.txt,0.95,0.0] -n 10 -o faces.nii.gz  --PClusterThresh 100 -i 3 --l1 0.5
 
 
-It assumes that ANTs is installed.
+It assumes that ANTs is installed. (Please update to ANTs Commit number 2079)
 
 1).  faces.mhd--it is the data matrix where "n" is e.g. the number of patients and "p" is the number of voxels.
 
