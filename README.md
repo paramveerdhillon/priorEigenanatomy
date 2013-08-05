@@ -6,7 +6,7 @@ A reproducible example of prior based eigenanatomy.
 cd to "data" directory and then run the following command line to run p-Eigen.
 
 
-sccan --svd prior[faces.mhd,face_mask.nii.gz,listPrior.txt,0.95,0.0] -n 7 -o faces.nii.gz  --PClusterThresh 100 -i 3 --l1 0.5
+sccan --svd prior[faces.mhd,face_mask.nii.gz,listPrior.txt,0.95,0.0] -n 10 -o faces.nii.gz  --PClusterThresh 100 -i 3 --l1 0.5
 
 
 It assumes that ANTs is installed.
